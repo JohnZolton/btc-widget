@@ -16,8 +16,8 @@
         <!-- Bitcoin logo -->
         <ImageView
             android:id="@+id/btc_logo"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:src="@drawable/bitcoin"
             android:contentDescription="Bitcoin logo" />
 
