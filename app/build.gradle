@@ -18,8 +18,9 @@ android {
         versionName "1.0"
         
         // API Keys
-        buildConfigField "String", "FINANCIAL_MODELING_PREP_KEY", "\"${properties.getProperty("financialmodelingprep.key", "")}\""
+        buildConfigField "String", "ALPHA_VANTAGE_KEY", "\"${properties.getProperty("alpha.vantage.key", "")}\""
         buildConfigField "String", "METALS_DEV_KEY", "\"${properties.getProperty("metals.dev.key", "")}\""
+        buildConfigField "String", "FRED_KEY", "\"${properties.getProperty("fred.key", "")}\""
     }
 
     buildTypes {
@@ -30,7 +31,7 @@ android {
     }
     
     buildFeatures {
-        // Enable custom BuildConfig fields used in the project (FINANCIAL_MODELING_PREP_KEY, METALS_DEV_KEY)
+        // Enable custom BuildConfig fields used in the project (ALPHA_VANTAGE_KEY, METALS_DEV_KEY)
         buildConfig true
     }
     

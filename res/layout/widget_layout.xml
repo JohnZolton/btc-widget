@@ -32,7 +32,7 @@
         android:id="@+id/btc_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BTC: $0.00"
+        android:text="$0.00"
         android:textSize="16sp"
         android:textColor="@color/white"
         android:gravity="center"

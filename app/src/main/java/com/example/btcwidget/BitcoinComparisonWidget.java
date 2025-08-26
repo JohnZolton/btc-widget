@@ -22,11 +22,6 @@ public class BitcoinComparisonWidget extends AppWidgetProvider {
         // Create RemoteViews object to update the widget UI
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_layout);
 
-        // Set last updated time
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm", Locale.getDefault());
-        String currentTime = sdf.format(new Date());
-        views.setTextViewText(R.id.last_updated, "Last updated: " + currentTime);
-
         // Fetch real data and update widget
         DataFetcher dataFetcher = new DataFetcher(context, appWidgetId, views, new DataFetcher.DataFetchCallback() {
             @Override

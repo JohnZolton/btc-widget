@@ -4,15 +4,15 @@ color black
 color dark_gray
 color orange
 color white
+drawable bitcoin
 drawable ic_refresh
 drawable widget_background
+id btc_logo
 id btc_price
 id btc_to_gold
 id btc_to_house
 id btc_to_sp500
-id last_updated
 id refresh_button
-id widget_title
 layout widget_layout
 mipmap ic_launcher
 mipmap ic_launcher_round

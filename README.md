@@ -23,7 +23,7 @@ I couldn't find a free gold price so it only shows if you put in an API key. S&P
    - Alternatively, you can run in terminal: `gradle wrapper` (if you have Gradle installed)
 4. Add API keys for the financial data services:
    - Create an account at [Metals Dev API](https://metals.dev/) and get an API key
-   - Create an account at [Financial Modeling Prep](https://financialmodelingprep.com/) and get an API key
+   - Create an account at [Alpha Vantage](https://www.alphavantage.co/) and get an API key
 5. Replace `YOUR_API_KEY` in `DataFetcher.java` with your actual API keys
 6. Build and install the app on your Android device:
    - In Android Studio: Build > Build Bundle(s) / APK(s) > Build APK(s)
@@ -52,7 +52,7 @@ The project follows the standard Android project structure:
 
 - Bitcoin price: [CoinDesk API](https://api.coindesk.com/v1/bpi/currentprice.json)
 - Gold price: [Metals Dev API](https://api.metals.dev/)
-- S&P 500 price: [Financial Modeling Prep API](https://financialmodelingprep.com/)
+- S&P 500 price: [Alpha Vantage API](https://www.alphavantage.co/)
 - Median US home price: Static value based on recent data (~$400,000)
 
 ## Example Display

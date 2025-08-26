@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-debug-28:/mipmap-xxxhdpi_ic_launcher.xml.flat",
-        "source": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-main-30:/mipmap-xxxhdpi/ic_launcher.xml"
-    },
-    {
         "merged": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-debug-28:/mipmap-xxhdpi_ic_launcher.xml.flat",
         "source": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-main-30:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-debug-28:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-main-30:/mipmap-xxxhdpi/ic_launcher.xml"
     },
     {
         "merged": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-debug-28:/mipmap-xhdpi_ic_launcher_round.xml.flat",
@@ -52,8 +52,16 @@
         "source": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-main-30:/xml/widget_info.xml"
     },
     {
+        "merged": "com.example.btcwidget.app-debug-28:/drawable_bitcoin.xml.flat",
+        "source": "com.example.btcwidget.app-main-30:/drawable/bitcoin.xml"
+    },
+    {
         "merged": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-debug-28:/mipmap-hdpi_ic_launcher.xml.flat",
         "source": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-main-30:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-debug-28:/drawable_ic_bitcoin_symbol.xml.flat",
+        "source": "/home/john/.gradle/daemon/8.7/com.example.btcwidget.app-main-30:/drawable/ic_bitcoin_symbol.xml"
     },
     {
         "merged": "com.example.btcwidget.app-debug-28:/layout_widget_layout.xml.flat",
