@@ -2,6 +2,8 @@
 
 An Android widget that displays the current Bitcoin price compared to gold, S&P 500, and US median house price.
 
+I couldn't find a free gold price so it only shows if you put in an API key. S&P and home prices are live and free.
+
 ## Features
 
 - Displays current Bitcoin price in USD
