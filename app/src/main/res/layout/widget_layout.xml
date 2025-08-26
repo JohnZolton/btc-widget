@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/widget_background">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitcoin Price Comparisons"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/refresh_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_refresh"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Refresh data" />
+
+    <TextView
+        android:id="@+id/btc_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BTC: $0.00"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/widget_title" />
+
+    <TextView
+        android:id="@+id/btc_to_gold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 BTC = 0.00 Gold oz"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_below="@id/btc_price" />
+
+    <TextView
+        android:id="@+id/btc_to_sp500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btc_to_sp500"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_below="@id/btc_to_gold" />
+
+    <TextView
+        android:id="@+id/btc_to_house"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 BTC = 0.00 Median homes"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@id/btc_to_sp500" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/btc_to_house"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/last_updated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last updated: --:--"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:gravity="center" />
+    </LinearLayout>
+</RelativeLayout>

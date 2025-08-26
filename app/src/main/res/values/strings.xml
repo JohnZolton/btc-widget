@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BTC Comparison Widget</string>
+    <string name="btc_to_sp500"><![CDATA[1 BTC = 0.00 S&P 500 shares]]></string>
+</resources>

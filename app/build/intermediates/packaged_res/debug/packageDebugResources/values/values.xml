@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#333333</color>
+    <color name="orange">#FF6600</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">BTC Comparison Widget</string>
+    <string name="btc_to_sp500"><![CDATA[1 BTC = 0.00 S&P 500 shares]]></string>
+    <style name="AppTheme" parent="android:Theme.DeviceDefault">
+        
+    </style>
+</resources>
