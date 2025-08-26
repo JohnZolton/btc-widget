@@ -1,5 +1,11 @@
 apply plugin: 'com.android.application'
 
+// Read local.properties file
+Properties properties = new Properties()
+if (rootProject.file("local.properties").exists()) {
+    properties.load(rootProject.file("local.properties").newDataInputStream())
+}
+
 android {
     namespace "com.example.btcwidget"
     compileSdkVersion 33
@@ -10,6 +16,10 @@ android {
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
+        
+        // API Keys
+        buildConfigField "String", "FINANCIAL_MODELING_PREP_KEY", "\"${properties.getProperty("financialmodelingprep.key", "")}\""
+        buildConfigField "String", "METALS_DEV_KEY", "\"${properties.getProperty("metals.dev.key", "")}\""
     }
 
     buildTypes {
@@ -17,6 +27,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    
+    buildFeatures {
+        // Enable custom BuildConfig fields used in the project (FINANCIAL_MODELING_PREP_KEY, METALS_DEV_KEY)
+        buildConfig true
     }
     
     compileOptions {
